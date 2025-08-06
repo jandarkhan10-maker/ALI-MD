@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~KFcwiZyS#KmPUigUS_zQb4d2q1n9c5Ah_zCn7Xn_2XVfRM1CmSn8",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~aEVynLrb#QqabQ3F9o7LFZT_6XFsHj9muv0JD5Qm2-jQU2AY-Mdg",  
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -42,7 +42,7 @@ OWNER_REACT: process.env.OWNER_REACT || "true",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923107361022",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923403524820",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ARBAZ DARERI",
 // add bot owner name
@@ -72,7 +72,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923107361022",
+DEV: process.env.DEV || "923403524820",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
